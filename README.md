@@ -39,8 +39,7 @@ The files are basic bash shell scripts.
 
 Clone down the script set:
 
-	git clone ... vimp_tool_suite
-
+	git clone git@github.com:xmcgyver/vimp_tool_suite.git vimp_tool_suite
 	cd vimp_tool_suite
 
 Ensure files are executable:
@@ -65,7 +64,7 @@ and don't forget the config:
 	mkdir ~/.srch
 	vi ~/.srch/config
 
-and drop in some content like that found in config_example file found in the vumi_tool_suite dir
+and drop in some content like that found in config_example file found in the vimp_tool_suite dir
 
 as a final point, if you want to add default options onto to the grep handling such as excluding dirs then, depending on your version of grep, you can add a file called .srch into the base of you project (like ~/Sites/my_project/.srch) and add in something like this.
 
