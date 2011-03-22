@@ -1,0 +1,23 @@
+# config example 
+# config should be located in this location: ~/.srch/config
+
+srchSuiteLocation="$HOME/Sites/vumi_tool_suite/"
+
+# all locations where projects are stored
+projectLocation[0]="$HOME/Sites/"
+projectLocation[1]="$HOME/Sites_Special/"
+projectLocation[1]="$HOME/Projects/"
+
+# command locations - for replacement commands installed with homebrew - http://mxcl.github.com/homebrew/
+
+# use a different version of grep that allows all options directories to be excluded
+# grepPath="/usr/local/Cellar/grep/2.5.4/bin/grep"
+
+# a version of gsed is need for the rplace function
+# gsedPath="/usr/local/Cellar/gnu-sed/4.2.1/bin/gsed"
+
+# command option
+
+# use OS X's mdfind instead of UNIX find command
+# mdFindage=1
+
