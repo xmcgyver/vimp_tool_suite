@@ -39,9 +39,9 @@ The files are basic bash shell scripts.
 
 Clone down the script set:
 
-	git clone ... vumi_tool_suite
+	git clone ... vimp_tool_suite
 
-	cd vumi_tool_suite
+	cd vimp_tool_suite
 
 Ensure files are executable:
 
