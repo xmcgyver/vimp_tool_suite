@@ -44,7 +44,7 @@ Clone down the script set:
 
 Ensure files are executable:
 
-	sudo chmod 755 . 
+	sudo chmod -R 755 . 
 
 Some dependancies need to be taken care of too with homebrew:
 
