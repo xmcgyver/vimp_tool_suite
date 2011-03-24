@@ -51,7 +51,7 @@ Some dependancies need to be taken care of too with homebrew:
 	sudo brew install gnu-sed # this is for rplace
 	sudo brew install grep # this is for exluding directories in srch
 
-Set the files up to work in terminal - there are a number of ways but this the most global approach
+Set the files up to work in terminal - there are a number of ways but this the most global approach - you might need a sudo in front of each of the following commands. (note the ` is the character on the key with the ~, it is not a single quote!)
 
 	ln -s `pwd`/vimp.sh /usr/local/bin/vimp
 	ln -s `pwd`/mimp.sh /usr/local/bin/mimp
@@ -59,16 +59,28 @@ Set the files up to work in terminal - there are a number of ways but this the m
 	ln -s `pwd`/srch.sh /usr/local/bin/srch
 	ln -s `pwd`/rplace.sh /usr/local/bin/rplace
 
-and don't forget the config:
+Create the config:
 
 	mkdir ~/.srch
 	vi ~/.srch/config
 
-and drop in some content like that found in config_example file found in the vimp_tool_suite dir
+The config file should have some content like that found in config_example file found in the vimp_tool_suite dir
 
-as a final point, if you want to add default options onto to the grep handling such as excluding dirs then, depending on your version of grep, you can add a file called .srch into the base of you project (like ~/Sites/my_project/.srch) and add in something like this.
+Add the folder with mvim to your $PATH
+
+        export PATH=$PATH:/Applications/macvim
+
+As a final point, if you want to add default options onto to the grep handling such as excluding dirs then, depending on your version of grep, you can add a file called .srch into the base of you project (like ~/Sites/my_project/.srch) and add in something like this.
 
 	--exclude=*.svn* --exclude=*.swp --exclude-dir=\.git 
+
+## How do I know it worked?
+
+If you are in your project folder, you should be able to run something like
+        
+        srch . "test"
+
+and it will return a listing of files that contain the string "test"
 
 ## Notes
 

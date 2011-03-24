@@ -1,16 +1,16 @@
 # config example 
 # config should be located in this location: ~/.srch/config
 
-srchSuiteLocation="$HOME/Sites/vumi_tool_suite/"
+srchSuiteLocation="$HOME/Sites/vimp_tool_suite/"
 
 # all locations where projects are stored
 projectLocation[0]="$HOME/Sites/"
 projectLocation[1]="$HOME/Sites_Special/"
-projectLocation[1]="$HOME/Projects/"
+projectLocation[2]="$HOME/Projects/"
 
 # command locations - for replacement commands installed with homebrew - http://mxcl.github.com/homebrew/
 
-# use a different version of grep that allows all options directories to be excluded
+# use a different version of grep that allows all options directories to be excluded - you can get this path by running the command: which grep
 # grepPath="/usr/local/Cellar/grep/2.5.4/bin/grep"
 
 # a version of gsed is need for the rplace function
