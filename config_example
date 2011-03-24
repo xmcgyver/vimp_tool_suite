@@ -5,8 +5,7 @@ srchSuiteLocation="$HOME/Sites/vimp_tool_suite/"
 
 # all locations where projects are stored
 projectLocation[0]="$HOME/Sites/"
-projectLocation[1]="$HOME/Sites_Special/"
-projectLocation[2]="$HOME/Projects/"
+projectLocation[1]="$HOME/Some_Other_Directory/"
 
 # command locations - for replacement commands installed with homebrew - http://mxcl.github.com/homebrew/
 
